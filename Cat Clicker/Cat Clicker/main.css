@@ -1,0 +1,21 @@
+h1 {
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+body {
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  background-color: #b1cdfa;
+}
+
+#cat-list {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+img {
+  cursor: pointer;
+  max-height: 350px;
+}

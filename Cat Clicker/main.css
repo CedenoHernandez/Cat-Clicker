@@ -1,9 +1,38 @@
+h1 {
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 2em;
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+  background-color: white;
+}
+
 body {
   text-align: center;
-  font-family: 'Catamaran', sans-serif;
-  background-color: #b1cdfa;
+  font-family: 'Lakki Reddy', cursive;
+  background: #ffffff url('images/cloudy-day.png'); /*image from subtlepatterns.com*/
+}
+
+#cat-list {
+  cursor: pointer;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 img {
   cursor: pointer;
+  max-height: 350px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 414px) {
+  #cat-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
